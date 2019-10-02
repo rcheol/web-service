@@ -1,0 +1,24 @@
+.landing-container {
+
+}
+
+.landing-title {
+    margin-top: 50px;
+    font-size: 58px;
+    color: black;
+    text-align: center;
+}
+
+.landing-subtitle {
+    margin-top: 50px;
+    font-size: 36px;
+    color: black;
+    text-align: center;
+}
+
+.landing-values {
+    margin-top: 50px;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}

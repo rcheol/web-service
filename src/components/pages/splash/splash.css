@@ -1,0 +1,24 @@
+.splash-container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../assets/images/splash.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.splash-title {
+    margin-top: 50px;
+    font-size: 58px;
+    color: white;
+    text-align: center;
+}
+
+.splash-subtitle {
+    margin-top: 50px;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}

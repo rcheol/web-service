@@ -4,7 +4,24 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+export type SomeContextType = {
+    fieldA: number;
+    fieldB: string;
+}
+
+export const initialSomeContext: SomeContextType = {
+    fieldA: 0,
+    fieldB: 'foo'
+};
+
+export const SomeContext = React.createContext(initialSomeContext);
+
+ReactDOM.render(
+    <SomeContext.Provider value={initialSomeContext}>
+        <App />
+    </SomeContext.Provider>,
+    document.getElementById('root')
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
