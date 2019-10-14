@@ -22,3 +22,23 @@
     color: black;
     text-align: center;
 }
+
+.button-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-style {
+    font-size: 16px;
+    width: 100px;
+    height: 100px;
+}
+
+.api-response {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}

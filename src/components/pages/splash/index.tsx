@@ -12,7 +12,7 @@ const Splash: React.FC<Props> = (props: Props) => {
             props.history.push('/home');
         }, 3000);
         return () => clearTimeout(timer);
-    }, []);
+    }, [props.history]);
 
     return (
         <div className={'splash-container'}>
